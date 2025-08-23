@@ -1,4 +1,4 @@
-package parkinglot.vehicle;
+package parking_lot.vehicle;
 
 public interface Vehicle {
     String getLicensePlate();

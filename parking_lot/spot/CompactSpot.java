@@ -1,13 +1,13 @@
-package parkinglot.spot;
+package parking_lot.spot;
 
-import parkinglot.vehicle.Vehicle;
-import parkinglot.vehicle.VehicleSize;
+import parking_lot.vehicle.Vehicle;
+import parking_lot.vehicle.VehicleSize;
 
-public class RegularSpot implements ParkingSpot {
+public class CompactSpot implements ParkingSpot {
     private int spotNumber;
     private Vehicle vehicle;  // The vehicle currently occupying this spot
 
-    public RegularSpot(int spotNumber) {
+    public CompactSpot(int spotNumber) {
         this.spotNumber = spotNumber;
         this.vehicle = null;  // No vehicle occupying initially
     }
@@ -38,6 +38,6 @@ public class RegularSpot implements ParkingSpot {
 
     @Override
     public VehicleSize getSize() {
-        return VehicleSize.MEDIUM;  // Regular spots fit medium vehicles
+        return VehicleSize.SMALL;  // Compact spots fit small vehicles
     }
-} 
+}

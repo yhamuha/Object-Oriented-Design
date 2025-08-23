@@ -1,4 +1,4 @@
-package parkinglot.fare;
+package parking_lot.fare;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

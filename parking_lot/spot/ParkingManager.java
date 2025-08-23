@@ -1,9 +1,8 @@
-package parkinglot.spot;
+package parking_lot.spot;
 
-import parkinglot.vehicle.Vehicle;
-import parkinglot.vehicle.VehicleSize;
+import parking_lot.vehicle.Vehicle;
+import parking_lot.vehicle.VehicleSize;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

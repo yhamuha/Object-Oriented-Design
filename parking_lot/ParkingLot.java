@@ -1,10 +1,10 @@
-package parkinglot;
+package parking_lot;
 
-import parkinglot.fare.FareCalculator;
-import parkinglot.fare.Ticket;
-import parkinglot.spot.ParkingManager;
-import parkinglot.spot.ParkingSpot;
-import parkinglot.vehicle.Vehicle;
+import parking_lot.fare.FareCalculator;
+import parking_lot.fare.Ticket;
+import parking_lot.spot.ParkingManager;
+import parking_lot.spot.ParkingSpot;
+import parking_lot.vehicle.Vehicle;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

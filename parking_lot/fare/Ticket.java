@@ -1,7 +1,7 @@
-package parkinglot.fare;
+package parking_lot.fare;
 
-import parkinglot.spot.ParkingSpot;
-import parkinglot.vehicle.Vehicle;
+import parking_lot.spot.ParkingSpot;
+import parking_lot.vehicle.Vehicle;
 
 import java.math.BigDecimal;
 import java.time.Duration;

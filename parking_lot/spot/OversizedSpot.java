@@ -1,7 +1,7 @@
-package parkinglot.spot;
+package parking_lot.spot;
 
-import parkinglot.vehicle.Vehicle;
-import parkinglot.vehicle.VehicleSize;
+import parking_lot.vehicle.Vehicle;
+import parking_lot.vehicle.VehicleSize;
 
 public class OversizedSpot implements ParkingSpot {
     private int spotNumber;

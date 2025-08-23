@@ -1,13 +1,13 @@
-package parkinglot;
+package parking_lot;
 
 import org.junit.jupiter.api.Test;
-import parkinglot.fare.*;
-import parkinglot.spot.ParkingManager;
-import parkinglot.spot.ParkingSpot;
-import parkinglot.spot.RegularSpot;
-import parkinglot.vehicle.Car;
-import parkinglot.vehicle.Vehicle;
-import parkinglot.vehicle.VehicleSize;
+import parking_lot.fare.*;
+import parking_lot.spot.ParkingManager;
+import parking_lot.spot.ParkingSpot;
+import parking_lot.spot.RegularSpot;
+import parking_lot.vehicle.Car;
+import parking_lot.vehicle.Vehicle;
+import parking_lot.vehicle.VehicleSize;
 
 import java.util.ArrayList;
 import java.util.HashMap;

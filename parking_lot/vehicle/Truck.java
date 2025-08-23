@@ -1,9 +1,9 @@
-package parkinglot.vehicle;
+package parking_lot.vehicle;
 
-public class Motorcycle implements Vehicle {
+public class Truck implements Vehicle {
     private String licensePlate;
 
-    public Motorcycle(String licensePlate) {
+    public Truck(String licensePlate) {
         this.licensePlate = licensePlate;
     }
 
@@ -14,6 +14,6 @@ public class Motorcycle implements Vehicle {
 
     @Override
     public VehicleSize getSize() {
-        return VehicleSize.SMALL;  // Motorcycles are small-sized
+        return VehicleSize.LARGE;  // Trucks are large-sized
     }
 } 

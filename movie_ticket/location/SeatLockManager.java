@@ -1,4 +1,4 @@
-package movie_ticket.race_condition;
+package movie_ticket.location;
 
 import movie_ticket.location.Seat;
 import movie_ticket.showing.Screening;

@@ -53,7 +53,7 @@ public class SeatLockManager {
     }
     
     private String generateLockKey(Screening screening, Seat seat) {
-        return screening.getId() + "-" + seat.getSeatNumber();
+        return /*screening.getId()*/ seat.getSeatNumber();
     }
     
     private static class SeatLock {

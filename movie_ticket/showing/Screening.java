@@ -7,23 +7,18 @@ import java.time.LocalDateTime;
 
 // Represents a scheduled screening of a movie in a specific cinema room.
 public class Screening {
-    private final float id;
     private final Movie movie;
     private final Room room;
     private final LocalDateTime startTime;
     private final LocalDateTime endTime;
 
     public Screening(Movie movie, Room room, LocalDateTime startTime, LocalDateTime endTime) {
-        this.id = id;
         this.movie = movie;
         this.room = room;
         this.startTime = startTime;
         this.endTime = endTime;
     }
 
-    public float getId() {
-        return id;
-    }
 
     public Movie getMovie() {
         return movie;

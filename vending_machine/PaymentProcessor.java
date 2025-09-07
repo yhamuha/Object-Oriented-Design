@@ -16,7 +16,6 @@ public class PaymentProcessor {
         return change;
     }
 
-    // Getter and setters
     public BigDecimal getCurrentBalance() {
         return currentBalance;
     }

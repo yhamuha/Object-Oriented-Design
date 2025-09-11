@@ -1,4 +1,4 @@
-package elevator_system.componenets;
+package elevator_system.components;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package elevator_system.componenets;
+package elevator_system.components;
 
 public class ElevatorStatus {
 
